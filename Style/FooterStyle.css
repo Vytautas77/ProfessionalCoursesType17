@@ -1,0 +1,35 @@
+.footerGrid{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 180px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    gap: 30px;
+}
+.footerGridSecond img {
+    width: 100px;
+    cursor: pointer;
+}
+.footerCircle{
+    cursor: pointer;
+    margin-left: 800px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 10;
+    top: 2010px;
+}
+.footerCircle img{
+    width: 150px;
+
+}
+
+.start {
+transform: rotate(-20deg);
+color: black;
+position: absolute;
+top: 65px;
+left: 45px;
+z-index: 20;
+}
